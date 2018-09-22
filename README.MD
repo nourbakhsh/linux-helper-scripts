@@ -26,6 +26,7 @@ Makes it executable:
 Run:
 `./backup-all-db.sh`
 
-**Import SQL Files**
+**Import SQL Files:**
+
 `gunzip < data-dump.sql.gz | mysql -u username -p database_name`
 
