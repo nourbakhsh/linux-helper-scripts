@@ -6,13 +6,22 @@ This script Creates Backups from all MYSQL Databases where each Database is back
 
 **How to use:**
 
-Download File: wget https://raw.githubusercontent.com/nourbakhsh/linux-helper-scripts/master/backup-all-db.sh
+Download File:
+
+*wget https://raw.githubusercontent.com/nourbakhsh/linux-helper-scripts/master/backup-all-db.sh*
+
 Insert your Parameter for:
+
 BACKUP_DIRECTORY="$HOME/backups/$TIMESTAMP"
+
 MYSQL_ROOT_USER="root"
+
 MYSQL_PASSWORD="YOURMYSQLPASSWORD"
+
 Makes it executable:
+
 *chmod +x backup-all-db.sh*
+
 run ./backup-all-db.sh
 
 **Import SQL Files**
