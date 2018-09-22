@@ -4,9 +4,9 @@ These are a bunch of helper Scripts which I frequently use.
 ## backup-all-db.sh
 This script Creates Backups from all MYSQL Databases where each Database is backedup into a separate SQL file.
 
-**How to use:**
+### How to use:**
 
-Download File:
+**Download File:**
 
 `wget https://raw.githubusercontent.com/nourbakhsh/linux-helper-scripts/master/backup-all-db.sh`
 
