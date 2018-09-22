@@ -28,5 +28,5 @@ Run:
 
 **Import SQL Files:**
 
-`gunzip < data-dump.sql.gz | mysql -u username -p database_name`
+`gunzip < DATA-DUMP.sql.gz | mysql -u root -p DATABASE_NAME`
 
