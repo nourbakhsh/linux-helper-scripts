@@ -44,4 +44,5 @@ Makes it executable:
 `chmod +x removeOldKernels.sh`
 
 Run as root:
+
 `./removeOldKernels.sh`
