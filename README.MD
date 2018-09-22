@@ -30,3 +30,18 @@ Run:
 
 `gunzip < DATA-DUMP.sql.gz | mysql -u root -p DATABASE_NAME`
 
+## removeOldKernels.sh
+
+Removes all Outdated Kernel files to get more freespace under Ubuntu 
+
+### How to use:
+
+**Download File:**
+`wget https://raw.githubusercontent.com/nourbakhsh/linux-helper-scripts/master/removeOldKernels.sh`
+
+Makes it executable:
+
+`chmod +x removeOldKernels.sh`
+
+Run as root:
+`./removeOldKernels.sh`
